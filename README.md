@@ -2,6 +2,6 @@
 
 Lab0: Github Orientation (Assignment Submission)
 
-## Run
+## Compile and Run
 
 ![piktyur](screenshot_001.png)
