@@ -1,0 +1,29 @@
+$ javac io/github/melvincabatuan/HelloWorld.java
+$ java io.github.melvincabatuan.HelloWorld
+Hello, World!
+
+
+$ javac io/github/melvincabatuan/HelloWorld.java -d bin -verbose
+[parsing started RegularFileObject[io/github/melvincabatuan/HelloWorld.java]]
+[parsing completed 43ms]
+[search path for source files: .]
+[search path for class files: /usr/lib/jvm/java-7-oracle/jre/lib/resources.jar,/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar,/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar,/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar,/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar,/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar,/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar,/usr/lib/jvm/java-7-oracle/jre/classes,/usr/lib/jvm/java-7-oracle/jre/lib/ext/dnsns.jar,/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunjce_provider.jar,/usr/lib/jvm/java-7-oracle/jre/lib/ext/zipfs.jar,/usr/lib/jvm/java-7-oracle/jre/lib/ext/localedata.jar,/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunpkcs11.jar,/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunec.jar,.]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-oracle/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-oracle/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[checking io.github.melvincabatuan.HelloWorld]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-oracle/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-oracle/lib/ct.sym(META-INF/sym/rt.jar/java/lang/System.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-oracle/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-oracle/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-oracle/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class)]]
+[wrote RegularFileObject[bin/io/github/melvincabatuan/HelloWorld.class]]
+[total 396ms]
+
+
+$ cd bin/
+$ $ javac ../io/github/melvincabatuan/Arguments.java -d .
+
+$ java io.github.melvincabatuan.Arguments A B C D
+No. of Arguments: 4
+
+
